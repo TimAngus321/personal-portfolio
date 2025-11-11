@@ -1,0 +1,24 @@
+@import '../../styles/index.scss';
+
+.homeIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    fill: $text__primary;
+}
+
+.homeIcon:hover {
+        display: none;
+      }
+
+.homeIcon:hover::after {
+    visibility: visible;
+    content: "HOME";
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    color: $base__highlight;;
+    text-decoration: none;
+  }
