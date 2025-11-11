@@ -1,4 +1,6 @@
+import { ComponentType } from 'react';
+
 export default interface ButtonIconProps {
-  icon: string;
+  icon: ComponentType;
   className?: string;
 }

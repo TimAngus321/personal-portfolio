@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../../styles/index.scss';
 
 .homeIcon {
     display: flex;
@@ -7,6 +7,7 @@
     align-content: center;
     align-items: center;
     fill: $text__primary;
+    width: fit-content;
 }
 
 .homeIcon:hover {

@@ -1,19 +1,20 @@
 import Link from "next/link";
 import IconButton from "@/components/IconButton/IconButton";
 import HomeIcon from "@/components/Icons/Home/HomeIcon";
+import styles from "./sidebarStyle.module.scss";
+import homeButtonStyles from '@/components/Icons/Home/homeButtonStyles.module.scss';
 
 export default function Sidebar() {
   // Server-side logic can go here (fetch data, etc.)
   return (
-    <aside>
+    <aside className={styles.sidebar}>
       <nav>
         <ul>
           <Link href="/" 
           aria-label="Home Link">
-            <li>
+            <li className={homeButtonStyles.homeButton}>
               <IconButton
                 icon={HomeIcon}
-                className=""
               />
             </li>
           </Link>
