@@ -1,19 +1,52 @@
-@import '../../styles/index.scss';
+@import "../../styles/index.scss";
 
 .sidebar {
   display: flex;
   color: $text__primary;
-  top: 0;
-  left: 0;
-  height: 100%;
+  height: 100vh;
   width: 100px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   background-color: transparent;
   backdrop-filter: blur(10px);
   border-right: $border__secondary solid 0.5px;
-  z-index: 100;
-  overflow-y: scroll;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
 }
