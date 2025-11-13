@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={styles.layout}>
       <body
-        className={`${styles.appLayout} antialiased`}
+        className={`${styles.appLayout} antialiased`} cz-shortcut-listen="true"
       >
         <Sidebar />
         <main className={styles.main}>{children}</main>

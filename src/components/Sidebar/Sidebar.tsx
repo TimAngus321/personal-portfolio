@@ -15,32 +15,36 @@ export default function Sidebar() {
       <nav className={styles.nav}>
         <ul className={styles.navListContainer}>
           <li className={styles.navItem}>
-            <Link href="/" aria-label="Home Link">
+            <Link className={styles.navLink} href="/" aria-label="Home Link">
               <IconButton icon={HomeIcon} />
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/about">
+            <Link
+              className={styles.navLink}
+              href="/about"
+              aria-label="About Link"
+            >
               <IconButton icon={AboutIcon} />
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/services">
+            <Link className={styles.navLink} href="/services">
               <IconButton icon={ServicesIcon} />
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/skills">
+            <Link className={styles.navLink} href="/skills">
               <IconButton icon={SkillsIcon} />
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/work">
+            <Link className={styles.navLink} href="/work">
               <IconButton icon={WorkIcon} />
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link href="/contact">
+            <Link className={styles.navLink} href="/contact">
               <IconButton icon={ContactIcon} />
             </Link>
           </li>
