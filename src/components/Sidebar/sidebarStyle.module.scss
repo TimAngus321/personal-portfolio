@@ -1,0 +1,48 @@
+.sidebar {
+  display: flex;
+  color: var(--text__primary);
+  height: 100vh;
+  width: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-right: var(--border__secondary) solid 0.5px;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.navListContainer {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.navLink {
+    text-decoration: none;
+}
