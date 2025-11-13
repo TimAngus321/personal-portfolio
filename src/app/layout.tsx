@@ -1,18 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import styles from "./layout.module.scss";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Timothy Angus's Personal Portfolio",
@@ -28,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={styles.layout}>
       <body
-        className={`${styles.fullpage__layout} antialiased`}
+        className={`${styles.appLayout} antialiased`}
       >
         <Sidebar />
-        <main>{children}</main>
+        <main className={styles.main}>{children}</main>
       </body>
     </html>
   );

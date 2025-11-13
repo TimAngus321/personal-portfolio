@@ -1,4 +1,5 @@
-@import '../../../styles/index.scss';
+// Set width for icons? 
+// Set height for icons?
 
 .homeIcon {
     display: flex;
@@ -6,8 +7,9 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    fill: $text__primary;
-    width: fit-content;
+    fill: var(--text-primary);
+    width: 100%;
+
 }
 
 .homeIcon:hover {
@@ -20,6 +22,6 @@
     font-size: 11px;
     display: flex;
     justify-content: center;
-    color: $base__highlight;;
+    color: var(--base-highlight);
     text-decoration: none;
   }

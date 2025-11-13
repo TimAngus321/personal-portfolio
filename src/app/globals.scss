@@ -1,0 +1,48 @@
+:root {
+  // Background Colours
+  --bg-primary: black;
+  --bg--secondary: #2b2b2b;
+
+  // Text Colours
+  --text-primary: white;
+  --text-secondary: #8d8d8d;
+
+  // Accent Colours
+  --base-highlight: #00fff0;
+
+  // Border Colours
+  --border-primary: white;
+  --border__secondary: #8d8d8d;
+
+  // Semantic colors
+  --success: #198c4b;
+  --warning: #f6be00;
+  --error: maroon;
+}
+
+/* ============================================
+   CSS RESET
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1;
+}
+
+/* ============================================
+    Global Utilities
+   ============================================ */
