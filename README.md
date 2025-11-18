@@ -1,26 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+### Todo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Create new Next.js app with my current modern approach for my portfolio
+- Old portfolio will be maintained but sunsetted eventually
+- Set up basic components with atomic strucutre
+- Setup storybook set up basic components
+- Recreate Home & Contact pages
+- Sidebar for desktop & bottom nav for mobile. (Think mobile usage area bottom and right hand corner most common)
+- Search bar with framework/lang icon selection to show/filter work & projects
+- Mock API (JSON-Server) or something quick from Vercel's offerings?
+- Tanstack setup
+- Zustand if needed
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Reasses other pages - check what's essential, simplify or remove.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
+## Keep this for now
 
 To learn more about Next.js, take a look at the following resources:
 

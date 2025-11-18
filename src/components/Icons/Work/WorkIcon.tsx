@@ -2,7 +2,7 @@ import styles from "../navIconStyles.module.scss";
 
 const WorkIcon = () => {
   return (
-    <span className={`${styles.navIcon} ${styles.aboutIcon}`}>
+    <span className={`${styles.navIcon} ${styles.workIcon}`}>
       <svg
         className={styles.navIconSvg}
         xmlns="http://www.w3.org/2000/svg"
